@@ -1,0 +1,26 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Pelican -->
+  <g id="pelican">
+    <circle cx="100" cy="150" r="50" fill="#FFFFFF" />
+    <path d="M 100 150 L 120 180 L 80 180 Z" fill="#FFFFFF" />
+    <circle cx="100" cy="120" r="20" fill="#000000" />
+    <circle cx="100" cy="180" r="20" fill="#000000" />
+  </g>
+  
+  <!-- Bicycle -->
+  <g id="bicycle">
+    <rect x="150" y="200" width="100" height="50" fill="#CCCCCC" rx="10" />
+    <circle cx="200" cy="220" r="20" fill="#CCCCCC" />
+    <circle cx="250" cy="220" r="20" fill="#CCCCCC" />
+    <path d="M 200 220 L 250 220 L 250 240 L 200 240 Z" fill="#CCCCCC" />
+  </g>
+  
+  <!-- Road -->
+  <rect x="0" y="250" width="400" height="50" fill="#AAAAAA" />
+  
+  <!-- Pelican riding bicycle -->
+  <g id="pelican-riding">
+    <use xlink:href="#pelican" x="180" y="120" />
+    <use xlink:href="#bicycle" x="150" y="200" />
+  </g>
+</svg>
