@@ -34,7 +34,7 @@ for model in "${models[@]}"; do
         # Capture both stdout and stderr, and the exit status
         if output=$(llm -m $model 'Generate an SVG of a pelican riding a bicycle' 2>&1); then
             # LLM succeeded, try to extract SVG
-            if echo "$output" | rg -U '<svg[\s\S]*?</svg>' > "$output_file" && [ -s "$output_file" ]; then
+            if echo "$output" | rg -U -m1 '<svg[\s\S]*?</svg>' > "$output_file" && [ -s "$output_file" ]; then
                 echo "Created $output_file"
             else
                 # SVG extraction failed
