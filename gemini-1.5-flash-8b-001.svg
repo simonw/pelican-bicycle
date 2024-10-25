@@ -1,0 +1,43 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M100 100C100 60 120 35 150 30C170 25 180 35 180 60C180 90 160 120 150 145C140 165 120 180 100 180C80 180 60 165 50 145C40 120 20 90 20 60C20 35 40 10 70 10C80 10 90 15 95 20C100 25 100 50 100 100Z" fill="#FFD700" />
+  <!-- Pelican Body -->
+
+  <path d="M120 110C115 115 110 120 110 130L110 140" stroke="black" stroke-width="2"/>
+  <path d="M110 130C110 130 115 145 125 145" stroke="black" stroke-width="2"/>
+  <!-- Pelican Legs -->
+
+
+  <ellipse cx="80" cy="135" rx="5" ry="10" fill="black"/>
+  <ellipse cx="120" cy="135" rx="5" ry="10" fill="black"/>
+   <!-- Pelican Feet -->
+
+
+  <path d="M105 165C110 160 115 155 115 150C115 145 115 140 115 140L110 160" stroke="black" stroke-width="2"/>
+    <!-- Pelican Tail -->
+
+
+
+  <path d="M70 165C80 165 80 160 85 155C90 150 95 150 95 155" stroke="black" stroke-width="2"/>
+   <!-- Pelican Tail -->
+
+
+  <path d="M130 165C140 165 140 160 145 155C150 150 155 150 155 155" stroke="black" stroke-width="2"/>
+  <!-- Pelican Tail -->
+  
+  <rect x="40" y="175" width="120" height="10" rx="3" fill="#696969" />
+    <!-- Bike Frame -->
+
+    <circle cx="75" cy="185" r="5" fill="black"/>
+  <circle cx="125" cy="185" r="5" fill="black"/>
+   <!-- Bike Wheels -->
+
+  <path d="M65 185L90 185" stroke="black" stroke-width="2"/>
+  <path d="M110 185L135 185" stroke="black" stroke-width="2"/>
+    <!-- Bike Chain -->
+
+
+  <polygon points="78,175 88,185 78,195" fill="black" stroke="black" stroke-width="1.5"/>
+     <polygon points="118,175 128,185 118,195" fill="black" stroke="black" stroke-width="1.5"/>
+    <!--Bike Pedal  (Both sides)-->
+  
+</svg>

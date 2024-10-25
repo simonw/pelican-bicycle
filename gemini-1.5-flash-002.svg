@@ -1,0 +1,22 @@
+<svg width="300" height="200" viewBox="0 0 300 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g clip-path="url(#clip0_1_1)">
+    <path d="M150 180C150 180 120 160 120 130C120 100 150 80 150 80C150 80 180 100 180 130C180 160 150 180 150 180Z" fill="#FFD700"/>
+    <ellipse cx="150" cy="100" rx="30" ry="20" fill="#FFFFFF"/>
+    <ellipse cx="125" cy="90" rx="5" ry="3" fill="#000000"/>
+    <ellipse cx="175" cy="90" rx="5" ry="3" fill="#000000"/>
+    <path d="M120 130L110 140L110 160L120 170L130 160L130 140L120 130Z" fill="#FFD700"/>
+    <path d="M180 130L170 140L170 160L180 170L190 160L190 140L180 130Z" fill="#FFD700"/>
+    <path d="M140 100L160 70L180 100" stroke="black" stroke-width="2"/>
+    <path d="M150 100L150 60" stroke="black" stroke-width="2"/>
+  </g>
+  <g>
+    <circle cx="100" cy="170" r="10" fill="black"/>
+    <circle cx="200" cy="170" r="10" fill="black"/>
+    <path d="M100 170C100 160 200 160 200 170" stroke="black" stroke-width="5"/>
+  </g>
+  <defs>
+    <clipPath id="clip0_1_1">
+      <rect width="150" height="120" fill="white" transform="translate(75 60)"/>
+    </clipPath>
+  </defs>
+</svg>

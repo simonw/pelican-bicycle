@@ -1,0 +1,38 @@
+<svg width="400" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="0" y="0" width="400" height="200" fill="#87CEEB" rx="10" />
+
+  <!-- Grass -->
+  <rect x="0" y="180" width="400" height="20" fill="#32CD32" rx="10" />
+
+  <!-- Bicycle -->
+  <g transform="translate(150, 50)">
+    <!-- Frame -->
+    <rect x="20" y="20" width="60" height="40" fill="#808080" rx="5" />
+    <!-- Wheels -->
+    <circle cx="40" cy="60" r="20" fill="#000000" />
+    <circle cx="80" cy="60" r="20" fill="#000000" />
+    <!-- Pedals -->
+    <circle cx="45" cy="50" r="5" fill="#000000" />
+    <circle cx="75" cy="50" r="5" fill="#000000" />
+    <!-- Handlebars -->
+    <path d="M 30 30 L 50 10 L 70 30" stroke="#808080" stroke-width="5" fill="none" />
+  </g>
+
+  <!-- Pelican -->
+  <g transform="translate(170, 40)">
+    <!-- Body -->
+    <ellipse cx="30" cy="30" rx="30" ry="20" fill="#FFFFFF" />
+    <!-- Beak -->
+    <path d="M 45 20 L 60 30 L 45 40" stroke="#FFD700" stroke-width="5" fill="none" />
+    <!-- Legs -->
+    <line x1="30" y1="50" x2="20" y2="60" stroke="#FFD700" stroke-width="5" />
+    <line x1="40" y1="50" x2="50" y2="60" stroke="#FFD700" stroke-width="5" />
+    <!-- Wings -->
+    <path d="M 50 10 L 70 20 L 50 30" stroke="#FFD700" stroke-width="5" fill="none" />
+    <path d="M 10 10 L 30 20 L 10 30" stroke="#FFD700" stroke-width="5" fill="none" />
+    <!-- Eyes -->
+    <circle cx="25" cy="25" r="5" fill="#000000" />
+    <circle cx="35" cy="25" r="5" fill="#000000" />
+  </g>
+</svg>
