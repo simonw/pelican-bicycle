@@ -1,0 +1,55 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Pelican -->
+  <circle cx="50" cy="50" r="30" fill="#964B00" />
+  <circle cx="50" cy="60" r="10" fill="#964B00" />
+  <circle cx="50" cy="70" r="10" fill="#964B00" />
+  <rect x="40" y="80" width="20" height="10" fill="#964B00" />
+  <rect x="60" y="80" width="20" height="10" fill="#964B00" />
+  <rect x="80" y="80" width="20" height="10" fill="#964B00" />
+  <line x1="50" y1="50" x2="50" y2="70" stroke="#964B00" stroke-width="5" />
+  <line x1="50" y1="70" x2="50" y2="90" stroke="#964B00" stroke-width="5" />
+  <line x1="50" y1="90" x2="50" y2="110" stroke="#964B00" stroke-width="5" />
+  <line x1="40" y1="80" x2="30" y2="80" stroke="#964B00" stroke-width="5" />
+  <line x1="60" y1="80" x2="70" y2="80" stroke="#964B00" stroke-width="5" />
+  <line x1="80" y1="80" x2="90" y2="80" stroke="#964B00" stroke-width="5" />
+  <line x1="50" y1="50" x2="90" y2="50" stroke="#964B00" stroke-width="5" />
+  <line x1="50" y1="70" x2="90" y2="70" stroke="#964B00" stroke-width="5" />
+  <line x1="50" y1="90" x2="90" y2="90" stroke="#964B00" stroke-width="5" />
+  <line x1="50" y1="50" x2="50" y2="110" stroke="#964B00" stroke-width="5" />
+  <line x1="50" y1="70" x2="50" y2="110" stroke="#964B00" stroke-width="5" />
+  <line x1="50" y1="90" x2="50" y2="110" stroke="#964B00" stroke-width="5" />
+  <circle cx="90" cy="50" r="10" fill="#964B00" />
+  <circle cx="90" cy="70" r="10" fill="#964B00" />
+  <circle cx="90" cy="90" r="10" fill="#964B00" />
+  <rect x="80" y="80" width="20" height="10" fill="#964B00" />
+  <rect x="100" y="80" width="20" height="10" fill="#964B00" />
+  <rect x="120" y="80" width="20" height="10" fill="#964B00" />
+  <line x1="90" y1="50" x2="90" y2="70" stroke="#964B00" stroke-width="5" />
+  <line x1="90" y1="70" x2="90" y2="90" stroke="#964B00" stroke-width="5" />
+  <line x1="90" y1="90" x2="90" y2="110" stroke="#964B00" stroke-width="5" />
+  <line x1="80" y1="80" x2="70" y2="80" stroke="#964B00" stroke-width="5" />
+  <line x1="100" y1="80" x2="90" y2="80" stroke="#964B00" stroke-width="5" />
+  <line x1="120" y1="80" x2="110" y2="80" stroke="#964B00" stroke-width="5" />
+  <line x1="90" y1="50" x2="110" y2="50" stroke="#964B00" stroke-width="5" />
+  <line x1="90" y1="70" x2="110" y2="70" stroke="#964B00" stroke-width="5" />
+  <line x1="90" y1="90" x2="110" y2="90" stroke="#964B00" stroke-width="5" />
+  <line x1="90" y1="50" x2="90" y2="110" stroke="#964B00" stroke-width="5" />
+  <line x1="90" y1="70" x2="90" y2="110" stroke="#964B00" stroke-width="5" />
+  <line x1="90" y1="90" x2="90" y2="110" stroke="#964B00" stroke-width="5" />
+  <!-- Bicycle -->
+  <rect x="50" y="50" width="40" height="20" fill="#FFFFFF" rx="5" />
+  <rect x="50" y="70" width="40" height="20" fill="#FFFFFF" rx="5" />
+  <rect x="50" y="90" width="40" height="20" fill="#FFFFFF" rx="5" />
+  <line x1="50" y1="50" x2="50" y2="70" stroke="#000000" stroke-width="5" />
+  <line x1="50" y1="70" x2="50" y2="90" stroke="#000000" stroke-width="5" />
+  <line x1="50" y1="90" x2="50" y2="110" stroke="#000000" stroke-width="5" />
+  <line x1="50" y1="50" x2="90" y2="50" stroke="#000000" stroke-width="5" />
+  <line x1="50" y1="70" x2="90" y2="70" stroke="#000000" stroke-width="5" />
+  <line x1="50" y1="90" x2="90" y2="90" stroke="#000000" stroke-width="5" />
+  <line x1="50" y1="50" x2="50" y2="110" stroke="#000000" stroke-width="5" />
+  <line x1="50" y1="70" x2="50" y2="110" stroke="#000000" stroke-width="5" />
+  <line x1="50" y1="90" x2="50" y2="110" stroke="#000000" stroke-width="5" />
+  <circle cx="50" cy="50" r="5" fill="#000000" />
+  <circle cx="50" cy="70" r="5" fill="#000000" />
+  <circle cx="50" cy="90" r="5" fill="#000000" />
+</svg>

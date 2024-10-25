@@ -59,3 +59,31 @@ Prompt:
 
 ### o1-preview
 <img src="o1-preview.svg" width="600" alt="O1 Preview">
+
+## Amazon Bedrock models
+
+### Llama 3.2 3B
+<img src="aws-bedrock-llama-3.2-3b.svg" width="600" alt="Llama 3.2 3B">
+
+### Llama 3.1 8B
+<img src="aws-bedrock-llama-3.1-8b.svg" width="600" alt="Llama 3.1 8B">
+
+### Llama 3.1 70B
+<img src="aws-bedrock-llama-3.1-70b.svg" width="600" alt="Llama 3.1 70B">
+
+### Llama 3.1 405B
+<img src="aws-bedrock-llama-3.1-405b.svg" width="600" alt="Llama 3.1 405B">
+
+### Mistral Large V2 (2407)
+<img src="aws-bedrock-mistral-large-2407.svg" width="600" alt="Mistral Large V2">
+
+## Hyperbolic models
+
+### Llama 3.1 8B BF16
+<img src="hyperbolic-llama-3.1-8B-bf16.svg" width="600" alt="Llama 3.1 8B BF16">
+
+### Llama 3.1 405B BF16
+<img src="hyperbolic-llama-3.1-405b-bf16.svg" width="600" alt="Llama 3.1 405B BF16">
+
+### Llama 3.2 90B Vision Instruct BF16
+<img src="hyperbolic-llama-3.2-90b-vision-instruct-bf16.svg" width="600" alt="Llama 3.2 90B Vision Instruct BF16">
