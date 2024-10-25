@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="600" fill="#87CEEB" rx="10" />
+
+  <!-- Sky -->
+  <rect x="0" y="0" width="800" height="200" fill="#87CEEB" rx="10" />
+  <rect x="0" y="200" width="800" height="400" fill="#ADD8E6" rx="10" />
+
+  <!-- Bicycle -->
+  <rect x="350" y="450" width="100" height="50" fill="#964B00" rx="10" />
+  <rect x="350" y="420" width="50" height="20" fill="#964B00" rx="5" />
+  <rect x="350" y="400" width="20" height="20" fill="#964B00" rx="5" />
+  <rect x="350" y="380" width="20" height="20" fill="#964B00" rx="5" />
+  <rect x="350" y="360" width="50" height="20" fill="#964B00" rx="5" />
+  <rect x="350" y="340" width="100" height="20" fill="#964B00" rx="10" />
+  <circle cx="400" cy="420" r="10" fill="#964B00" />
+  <circle cx="400" cy="440" r="10" fill="#964B00" />
+  <rect x="360" y="450" width="20" height="10" fill="#964B00" rx="5" />
+  <rect x="380" y="450" width="20" height="10" fill="#964B00" rx="5" />
+
+  <!-- Pelican -->
+  <circle cx="150" cy="200" r="80" fill="#FFA07A" />
+  <circle cx="150" cy="200" r="60" fill="#FFC080" />
+  <circle cx="150" cy="200" r="30" fill="#FFA07A" />
+  <rect x="120" y="220" width="20" height="10" fill="#000000" rx="5" />
+  <rect x="140" y="220" width="20" height="10" fill="#000000" rx="5" />
+  <rect x="160" y="220" width="20" height="10" fill="#000000" rx="5" />
+  <rect x="180" y="220" width="20" height="10" fill="#000000" rx="5" />
+  <rect x="120" y="230" width="10" height="20" fill="#000000" rx="5" />
+  <rect x="140" y="230" width="10" height="20" fill="#000000" rx="5" />
+  <rect x="160" y="230" width="10" height="20" fill="#000000" rx="5" />
+  <rect x="180" y="230" width="10" height="20" fill="#000000" rx="5" />
+
+  <!-- Legs -->
+  <rect x="130" y="250" width="10" height="20" fill="#000000" rx="5" />
+  <rect x="150" y="250" width="10" height="20" fill="#000000" rx="5" />
+  <rect x="170" y="250" width="10" height="20" fill="#000000" rx="5" />
+  <rect x="130" y="260" width="10" height="20" fill="#000000" rx="5" />
+  <rect x="150" y="260" width="10" height="20" fill="#000000" rx="5" />
+  <rect x="170" y="260" width="10" height="20" fill="#000000" rx="5" />
+
+  <!-- Beak -->
+  <rect x="120" y="180" width="20" height="10" fill="#000000" rx="5" />
+  <rect x="140" y="180" width="20" height="10" fill="#000000" rx="5" />
+  <rect x="160" y="180" width="20" height="10" fill="#000000" rx="5" />
+
+  <!-- Eyes -->
+  <circle cx="150" cy="180" r="5" fill="#000000" />
+  <circle cx="150" cy="160" r="5" fill="#000000" />
+</svg>
