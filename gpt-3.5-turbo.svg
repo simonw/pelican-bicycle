@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Pelican body -->
+  <circle cx="50" cy="30" r="20" fill="gray" />
+  <!-- Pelican head -->
+  <circle cx="50" cy="20" r="10" fill="gray" />
+  <!-- Pelican beak -->
+  <polygon points="50,23 45,25 55,25" fill="orange" />
+  <!-- Bicycle frame -->
+  <rect x="40" y="30" width="20" height="40" fill="black" />
+  <!-- Bicycle wheels -->
+  <circle cx="45" cy="70" r="5" fill="black" />
+  <circle cx="55" cy="70" r="5" fill="black" />
+  <!-- Bicycle pedals -->
+  <circle cx="43" cy="40" r="2" fill="white" />
+  <circle cx="47" cy="40" r="2" fill="white" />
+</svg>

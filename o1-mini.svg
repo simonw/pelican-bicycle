@@ -1,0 +1,59 @@
+<svg
+    width="400"
+    height="300"
+    viewBox="0 0 400 300"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+
+    <!-- Define some reusable styles -->
+    <defs>
+        <style>
+            .bike-frame { stroke: #333; stroke-width: 4; fill: none; }
+            .wheel { fill: #555; stroke: #333; stroke-width: 4; }
+            .pelican-body { fill: #fff; stroke: #333; stroke-width: 2; }
+            .pelican-beak { fill: #ffa500; stroke: #333; stroke-width: 2; }
+            .pelican-eye { fill: #000; }
+            .pedal { fill: #333; }
+        </style>
+    </defs>
+
+    <!-- Draw the wheels -->
+    <circle class="wheel" cx="150" cy="200" r="50"/>
+    <circle class="wheel" cx="250" cy="200" r="50"/>
+
+    <!-- Draw the bike frame -->
+    <line class="bike-frame" x1="150" y1="200" x2="200" y2="100"/>
+    <line class="bike-frame" x1="200" y1="100" x2="250" y2="200"/>
+    <line class="bike-frame" x1="200" y1="100" x2="200" y2="150"/>
+    <line class="bike-frame" x1="200" y1="150" x2="170" y2="200"/>
+    <line class="bike-frame" x1="200" y1="150" x2="230" y2="200"/>
+
+    <!-- Draw the pedals -->
+    <circle cx="200" cy="150" r="5" fill="#333"/>
+    <line x1="200" y1="150" x2="190" y2="140" stroke="#333" stroke-width="2"/>
+    <line x1="200" y1="150" x2="210" y2="160" stroke="#333" stroke-width="2"/>
+
+    <!-- Draw the pelican's body -->
+    <ellipse class="pelican-body" cx="200" cy="100" rx="30" ry="20"/>
+    
+    <!-- Pelican's wings -->
+    <path d="M170,100 Q160,90 170,80" class="pelican-body"/>
+    <path d="M230,100 Q240,90 230,80" class="pelican-body"/>
+
+    <!-- Pelican's beak -->
+    <polygon points="230,100 250,95 230,105" class="pelican-beak"/>
+
+    <!-- Pelican's eye -->
+    <circle cx="215" cy="90" r="3" class="pelican-eye"/>
+
+    <!-- Pelican's legs on the pedals -->
+    <line x1="200" y1="100" x2="190" y2="140" stroke="#333" stroke-width="2"/>
+    <line x1="200" y1="100" x2="210" y2="160" stroke="#333" stroke-width="2"/>
+    
+    <!-- Optional: Add some details like handlebars -->
+    <line class="bike-frame" x1="200" y1="100" x2="180" y2="90"/>
+    <line class="bike-frame" x1="180" y1="90" x2="180" y2="100"/>
+    <line class="bike-frame" x1="180" y1="90" x2="190" y2="95"/>
+    <line class="bike-frame" x1="180" y1="90" x2="170" y2="95"/>
+    
+</svg>
