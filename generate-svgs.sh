@@ -18,6 +18,8 @@ models=(
     "gemini-1.5-flash-8b-001"
     "cerebras-llama3.1-8b"
     "cerebras-llama3.1-70b"
+    "gemini-exp-1114"
+    "gemini-exp-1121"
 )
 
 mkdir -p failures

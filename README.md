@@ -43,6 +43,12 @@ Prompt:
 ### Gemini 1.5 Pro 002
 <img src="gemini-1.5-pro-002.svg" width="600" alt="Gemini 1.5 Pro 002">
 
+### gemini-exp-1114
+<img src="gemini-exp-1114.svg" width="600" alt="gemini-exp-1114">
+
+### gemini-exp-1121
+<img src="gemini-exp-1121.svg" width="600" alt="gemini-exp-1121">
+
 ## OpenAI models
 
 ### GPT-3.5 Turbo
