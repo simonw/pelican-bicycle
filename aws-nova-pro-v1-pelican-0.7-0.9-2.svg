@@ -1,0 +1,24 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Pelican -->
+  <path d="M 50,100 C 50,80 70,70 90,80 C 110,90 130,80 130,100 C 130,120 110,130 90,120 C 70,110 50,120 50,100" 
+        fill="gray" stroke="black" stroke-width="2"/>
+  <circle cx="65" cy="85" r="5" fill="black"/> <!-- Left eye -->
+  <circle cx="85" cy="85" r="5" fill="black"/> <!-- Right eye -->
+  <path d="M 75,95 L 75,110" stroke="black" stroke-width="2"/> <!-- Beak -->
+  
+  <!-- Bicycle -->
+  <circle cx="100" cy="160" r="20" fill="blue"/> <!-- Rear wheel -->
+  <circle cx="150" cy="120" r="20" fill="blue"/> <!-- Front wheel -->
+  <line x1="100" y1="140" x2="150" y2="100" stroke="black" stroke-width="4"/> <!-- Frame -->
+  <line x1="125" y1="100" x2="150" y2="120" stroke="black" stroke-width="4"/> <!-- Front fork -->
+  <line x1="100" y1="140" x2="125" y2="100" stroke="black" stroke-width="4"/> <!-- Seat tube -->
+  <line x1="100" y1="160" x2="100" y2="140" stroke="black" stroke-width="4"/> <!-- Rear axle -->
+  <line x1="150" y1="120" x2="150" y2="100" stroke="black" stroke-width="4"/> <!-- Front axle -->
+  
+  <!-- Seat -->
+  <rect x="90" y="130" width="20" height="10" fill="red" rx="5" ry="5"/>
+  
+  <!-- Handlebars -->
+  <line x1="125" y1="90" x2="135" y2="80" stroke="black" stroke-width="4"/>
+  <line x1="125" y1="90" x2="115" y2="80" stroke="black" stroke-width="4"/>
+</svg>

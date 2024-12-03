@@ -1,0 +1,31 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Pelican Body -->
+  <ellipse cx="150" cy="200" rx="50" ry="30" fill="gray" />
+  
+  <!-- Pelican Head -->
+  <ellipse cx="100" cy="180" rx="30" ry="20" fill="gray" />
+  
+  <!-- Pelican Beak -->
+  <polygon points="100,180 70,220 100,220" fill="yellow" />
+  
+  <!-- Pelican Eyes -->
+  <circle cx="90" cy="170" r="5" fill="black" />
+  <circle cx="110" cy="170" r="5" fill="black" />
+  
+  <!-- Pelican Wings -->
+  <polygon points="150,200 200,150 200,250" fill="gray" />
+  
+  <!-- Bicycle Frame -->
+  <line x1="150" y1="230" x2="250" y2="230" stroke="black" stroke-width="5" />
+  <line x1="250" y1="230" x2="250" y2="300" stroke="black" stroke-width="5" />
+  <line x1="250" y1="300" x2="200" y2="300" stroke="black" stroke-width="5" />
+  <line x1="200" y1="300" x2="150" y2="280" stroke="black" stroke-width="5" />
+  
+  <!-- Bicycle Wheels -->
+  <circle cx="175" cy="280" r="20" stroke="black" stroke-width="3" fill="none" />
+  <circle cx="250" cy="300" r="20" stroke="black" stroke-width="3" fill="none" />
+  
+  <!-- Pelican Feet Pedaling -->
+  <circle cx="160" cy="280" r="5" fill="gray" />
+  <circle cx="190" cy="280" r="5" fill="gray" />
+</svg>

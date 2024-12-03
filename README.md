@@ -77,6 +77,18 @@ Prompt:
 ### Mistral Large V2 (2407)
 <img src="aws-bedrock-mistral-large-2407.svg" width="600" alt="Mistral Large V2">
 
+### Nova Pro V1
+#### Temp 0.7, Top P 0.9
+<img src="aws-nova-pro-v1-pelican-0.7-0.9-1.svg" width="600" alt="Amazon Nova Pro">
+<img src="aws-nova-pro-v1-pelican-0.7-0.9-2.svg" width="600" alt="Amazon Nova Pro">
+<img src="aws-nova-pro-v1-pelican-0.7-0.9-3.svg" width="600" alt="Amazon Nova Pro">
+
+#### Temp 1, Top P 0.9
+<img src="aws-nova-pro-v1-pelican-1-1.svg" width="600" alt="Amazon Nova Pro">
+<img src="aws-nova-pro-v1-pelican-1-2.svg" width="600" alt="Amazon Nova Pro">
+<img src="aws-nova-pro-v1-pelican-1-3.svg" width="600" alt="Amazon Nova Pro">
+
+
 ## Hyperbolic models
 
 ### Llama 3.1 8B BF16
