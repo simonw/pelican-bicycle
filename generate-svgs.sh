@@ -20,6 +20,9 @@ models=(
     "cerebras-llama3.1-70b"
     "gemini-exp-1114"
     "gemini-exp-1121"
+    "us.amazon.nova-micro-v1:0"
+    "us.amazon.nova-lite-v1:0"
+    "us.amazon.nova-pro-v1:0"
 )
 
 mkdir -p failures
@@ -27,6 +30,8 @@ mkdir -p failures
 # Loop through each model
 for model in "${models[@]}"; do
     output_file="$model.svg"
+    # Replace any : in that with -
+    output_file="${output_file//:/-}"
     timestamp=$(date '+%Y%m%d%H%M')
     failure_file="failures/$model.$timestamp.txt"
     

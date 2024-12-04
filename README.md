@@ -65,3 +65,14 @@ Prompt:
 
 ### o1-preview
 <img src="o1-preview.svg" width="600" alt="O1 Preview">
+
+## AWS models
+
+### Amazon Nova Micro
+<img src="us.amazon.nova-micro-v1-0.svg" width="600" alt="Amazon Nova Micro">
+
+### Amazon Nova Lite
+<img src="us.amazon.nova-lite-v1-0.svg" width="600" alt="Amazon Nova Lite">
+
+### Amazon Nova Pro
+<img src="us.amazon.nova-pro-v1-0.svg" width="600" alt="Amazon Nova Pro">

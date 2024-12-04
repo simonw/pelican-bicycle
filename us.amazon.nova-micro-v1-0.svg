@@ -1,0 +1,30 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="190" fill="lightblue" stroke="blue" stroke-width="5"/>
+  
+  <!-- Bicycle frame -->
+  <rect x="60" y="120" width="80" height="20" fill="black" stroke="black" stroke-width="2"/>
+  <rect x="80" y="140" width="20" height="40" fill="black" stroke="black" stroke-width="2"/>
+  
+  <!-- Bicycle wheel -->
+  <circle cx="70" cy="160" r="10" fill="black" stroke="black" stroke-width="2"/>
+  <circle cx="120" cy="160" r="10" fill="black" stroke="black" stroke-width="2"/>
+  
+  <!-- Bicycle wheel spokes -->
+  <line x1="70" y1="160" x2="70" y2="150" stroke="black" stroke-width="2"/>
+  <line x1="70" y1="160" x2="60" y2="150" stroke="black" stroke-width="2"/>
+  <line x1="70" y1="160" x2="80" y2="150" stroke="black" stroke-width="2"/>
+  <line x1="120" y1="160" x2="120" y2="150" stroke="black" stroke-width="2"/>
+  <line x1="120" y1="160" x2="110" y2="150" stroke="black" stroke-width="2"/>
+  <line x1="120" y1="160" x2="130" y2="150" stroke="black" stroke-width="2"/>
+  
+  <!-- Pelican -->
+  <ellipse cx="100" cy="90" rx="30" ry="40" fill="orange" stroke="black" stroke-width="2"/>
+  <path d="M 95 80 Q 100 65 105 80" fill="yellow" stroke="black" stroke-width="2"/> <!-- Beak -->
+  <circle cx="100" cy="75" r="5" fill="black" stroke="black" stroke-width="2"/> <!-- Eye -->
+  <path d="M 90 70 Q 95 65 100 70" fill="yellow" stroke="black" stroke-width="2"/> <!-- Tongue -->
+  <path d="M 100 100 Q 95 110 100 115" fill="white" stroke="white" stroke-width="2"/> <!-- Wing -->
+  
+  <!-- Bicycle rider -->
+  <circle cx="100" cy="140" r="5" fill="red" stroke="red" stroke-width="2"/> <!-- Seat -->
+</svg>
