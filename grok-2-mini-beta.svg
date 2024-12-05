@@ -1,0 +1,35 @@
+<svg width="300" height="300" viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+<!-- Bicycle Frame -->
+<path d="M100 150 L150 100 L200 150" stroke="black" stroke-width="8"/>
+<line x1="150" y1="100" x2="150" y2="180" stroke="black" stroke-width="8"/>
+
+<!-- Wheels -->
+<circle cx="100" cy="150" r="30" stroke="black" stroke-width="5" fill="none"/>
+<circle cx="200" cy="150" r="30" stroke="black" stroke-width="5" fill="none"/>
+<line x1="80" y1="150" x2="120" y2="150" stroke="black" stroke-width="3"/>
+<line x1="180" y1="150" x2="220" y2="150" stroke="black" stroke-width="3"/>
+
+<!-- Pelican -->
+<path d="M150 60 C150 60 180 80 170 120 C160 160 150 150 150 150" fill="#A5D6A7"/>
+
+<!-- Beak -->
+<path d="M150 80 L160 100 L140 100 Z" fill="#FFD700" stroke="black" stroke-width="1"/>
+
+<!-- Eye -->
+<circle cx="145" cy="85" r="5" fill="black"/>
+
+<!-- Leg and foot -->
+<line x1="150" y1="150" x2="140" y2="200" stroke="black" stroke-width="2"/>
+<path d="M135 200 L140 200 L145 195 L140 190 Z" fill="black"/>
+
+<!-- Tail -->
+<path d="M150 150 C150 170 130 200 150 200" stroke="black" stroke-width="2" fill="none"/>
+
+<!-- Handlebar -->
+<line x1="100" y1="100" x2="100" y2="80" stroke="black" stroke-width="5"/>
+
+<!-- Pelican's leg on bike -->
+<line x1="150" y1="180" x2="140" y2="210" stroke="black" stroke-width="2"/>
+<path d="M135 210 L140 210 L145 205 L140 200 Z" fill="black"/>
+
+</svg>
