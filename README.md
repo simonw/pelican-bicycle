@@ -49,6 +49,9 @@ Prompt:
 ### gemini-exp-1121
 <img src="gemini-exp-1121.svg" width="600" alt="gemini-exp-1121">
 
+### gemini-exp-1206
+<img src="gemini-exp-1206.svg" width="600" alt="gemini-exp-1206">
+
 ## OpenAI models
 
 ### GPT-3.5 Turbo

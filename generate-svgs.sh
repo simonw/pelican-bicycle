@@ -20,6 +20,7 @@ models=(
     "cerebras-llama3.1-70b"
     "gemini-exp-1114"
     "gemini-exp-1121"
+    "gemini-exp-1206"
     "us.amazon.nova-micro-v1:0"
     "us.amazon.nova-lite-v1:0"
     "us.amazon.nova-pro-v1:0"
