@@ -1,0 +1,53 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#f2f2f2"/>
+  
+  <!-- Bicycle wheels -->
+  <circle cx="100" cy="300" r="40" fill="#555" stroke="#333" stroke-width="5" />
+  <circle cx="260" cy="300" r="40" fill="#555" stroke="#333" stroke-width="5" />
+  
+  <!-- Bicycle frame -->
+  <line x1="100" y1="300" x2="180" y2="260" stroke="#333" stroke-width="6" stroke-linecap="round"/>
+  <line x1="260" y1="300" x2="180" y2="260" stroke="#333" stroke-width="6" stroke-linecap="round"/>
+  <line x1="180" y1="260" x2="180" y2="220" stroke="#333" stroke-width="6" stroke-linecap="round"/>
+  <line x1="100" y1="300" x2="140" y2="300" stroke="#333" stroke-width="6" stroke-linecap="round"/>
+  
+  <!-- Handlebars -->
+  <line x1="180" y1="220" x2="200" y2="200" stroke="#333" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Seat -->
+  <line x1="180" y1="260" x2="160" y2="245" stroke="#333" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Pelican body -->
+  <!-- The pelican’s body: a white oval -->
+  <ellipse cx="150" cy="180" rx="50" ry="30" fill="#ffffff" stroke="#333" stroke-width="2"/>
+  
+  <!-- Pelican wing -->
+  <path d="M120 170 C90 180, 90 200, 140 190 Z" fill="#f0f0f0" stroke="#333" stroke-width="2"/>
+  
+  <!-- Pelican head and neck -->
+  <!-- Neck -->
+  <path d="M140 150 Q145 130, 160 140" fill="none" stroke="#333" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Head -->
+  <circle cx="165" cy="135" r="15" fill="#ffffff" stroke="#333" stroke-width="2"/>
+  
+  <!-- Eye -->
+  <circle cx="170" cy="133" r="2" fill="#333"/>
+  
+  <!-- Pelican beak -->
+  <path d="M175 140 Q200 140, 190 130 Q170 125, 175 140 Z" fill="#f2b632" stroke="#333" stroke-width="2"/>
+  
+  <!-- Pelican legs -->
+  <!-- Positioned as if on pedals -->
+  <line x1="180" y1="260" x2="150" y2="280" stroke="#d49f6f" stroke-width="4" stroke-linecap="round"/>
+  <line x1="180" y1="260" x2="210" y2="280" stroke="#d49f6f" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Pelican feet (simple shapes to suggest feet on pedals) -->
+  <ellipse cx="150" cy="280" rx="5" ry="8" fill="#d49f6f"/>
+  <ellipse cx="210" cy="280" rx="5" ry="8" fill="#d49f6f"/>
+  
+  <!-- Slight shadow under the bicycle -->
+  <ellipse cx="180" cy="320" rx="100" ry="10" fill="rgba(0,0,0,0.1)"/>
+  
+</svg>

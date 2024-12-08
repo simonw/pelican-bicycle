@@ -60,6 +60,11 @@ Prompt:
 ### o1-preview
 <img src="o1-preview.svg" width="600" alt="O1 Preview">
 
+### ChatGPT o1 pro mode
+<img src="o1-pro-chatgpt-1.svg" width="600" alt="O1 Pro">
+<img src="o1-pro-chatgpt-2.svg" width="600" alt="O1 Pro">
+<img src="o1-pro-chatgpt-3.svg" width="600" alt="O1 Pro">
+
 ## Amazon Bedrock models
 
 ### Llama 3.2 3B
