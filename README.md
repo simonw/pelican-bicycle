@@ -65,6 +65,9 @@ Prompt:
 <img src="o1-pro-chatgpt-2.svg" width="600" alt="O1 Pro">
 <img src="o1-pro-chatgpt-3.svg" width="600" alt="O1 Pro">
 
+### ChatGPT o3-mini, high reasoning effort
+<img src="o3-high-pelican.svg" width="600" alt="O1 Pro">
+
 ## Amazon Bedrock models
 
 ### Llama 3.2 3B

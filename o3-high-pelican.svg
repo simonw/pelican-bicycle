@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400">
+  <!-- Bicycle Wheels -->
+  <circle cx="100" cy="300" r="50" stroke="black" stroke-width="3" fill="none"/>
+  <circle cx="300" cy="300" r="50" stroke="black" stroke-width="3" fill="none"/>
+
+  <!-- Bicycle Frame -->
+  <!-- Chainstay: rear wheel to bottom bracket -->
+  <line x1="100" y1="300" x2="170" y2="300" stroke="black" stroke-width="3"/>
+  <!-- Down tube: bottom bracket to head tube top -->
+  <line x1="170" y1="300" x2="265" y2="260" stroke="black" stroke-width="3"/>
+  <!-- Seat tube: from bottom bracket upward -->
+  <line x1="170" y1="300" x2="170" y2="260" stroke="black" stroke-width="3"/>
+  <!-- Top tube: from seat tube top to head tube top -->
+  <line x1="170" y1="260" x2="265" y2="260" stroke="black" stroke-width="3"/>
+  <!-- Front fork: from head tube top to front wheel center -->
+  <line x1="265" y1="260" x2="300" y2="300" stroke="black" stroke-width="3"/>
+  <!-- Handlebar: a short extension from the head tube -->
+  <line x1="265" y1="260" x2="245" y2="260" stroke="black" stroke-width="3"/>
+  <!-- Bicycle Seat: a small horizontal line (positioned just above the frame's top) -->
+  <line x1="160" y1="240" x2="180" y2="240" stroke="black" stroke-width="3"/>
+  <!-- Pedal Crank: a small circle at the bottom bracket -->
+  <circle cx="170" cy="300" r="5" fill="grey"/>
+
+  <!-- Pelican Riding the Bicycle -->
+  <g id="pelican">
+    <!-- Pelican Body (an ellipse whose bottom touches the seat line) -->
+    <ellipse cx="170" cy="225" rx="20" ry="15" fill="white" stroke="black" stroke-width="2"/>
+    <!-- Pelican Head -->
+    <circle cx="190" cy="215" r="8" fill="white" stroke="black" stroke-width="2"/>
+    <!-- Pelican Eye -->
+    <circle cx="186" cy="212" r="1.5" fill="black"/>
+    <!-- Pelican Beak -->
+    <polygon points="198,215 210,210 210,220" fill="orange" stroke="black" stroke-width="2"/>
+    <!-- Pelican Wing (a simple curved line) -->
+    <path d="M 160 225 Q 150 230 160 235" stroke="black" stroke-width="2" fill="none"/>
+  </g>
+</svg>
