@@ -1,0 +1,57 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Bicycle Frame -->
+  <path d="M 150 180 L 220 180 L 250 140 L 200 140 Z" fill="none" stroke="#333" stroke-width="3"/>
+  <line x1="150" y1="180" x2="130" y2="220" stroke="#333" stroke-width="3"/>
+  <line x1="220" y1="180" x2="240" y2="220" stroke="#333" stroke-width="3"/>
+  <line x1="200" y1="140" x2="180" y2="100" stroke="#333" stroke-width="3"/>
+  
+  <!-- Wheels -->
+  <circle cx="130" cy="220" r="30" fill="none" stroke="#333" stroke-width="3"/>
+  <circle cx="240" cy="220" r="30" fill="none" stroke="#333" stroke-width="3"/>
+  <!-- Wheel spokes -->
+  <line x1="130" y1="190" x2="130" y2="250" stroke="#333" stroke-width="1"/>
+  <line x1="100" y1="220" x2="160" y2="220" stroke="#333" stroke-width="1"/>
+  <line x1="240" y1="190" x2="240" y2="250" stroke="#333" stroke-width="1"/>
+  <line x1="210" y1="220" x2="270" y2="220" stroke="#333" stroke-width="1"/>
+  
+  <!-- Pedals -->
+  <circle cx="185" cy="180" r="15" fill="none" stroke="#333" stroke-width="2"/>
+  <line x1="185" y1="165" x2="185" y2="175" stroke="#333" stroke-width="3"/>
+  <line x1="185" y1="185" x2="185" y2="195" stroke="#333" stroke-width="3"/>
+  
+  <!-- Handlebars -->
+  <line x1="180" y1="100" x2="170" y2="90" stroke="#333" stroke-width="3"/>
+  <line x1="180" y1="100" x2="190" y2="90" stroke="#333" stroke-width="3"/>
+  <circle cx="170" cy="90" r="4" fill="#333"/>
+  <circle cx="190" cy="90" r="4" fill="#333"/>
+  
+  <!-- Seat -->
+  <ellipse cx="150" cy="135" rx="20" ry="8" fill="#8B4513"/>
+  
+  <!-- Pelican Body -->
+  <ellipse cx="160" cy="120" rx="35" ry="40" fill="white" stroke="#333" stroke-width="2"/>
+  
+  <!-- Pelican Head -->
+  <circle cx="190" cy="80" r="20" fill="white" stroke="#333" stroke-width="2"/>
+  
+  <!-- Pelican Beak -->
+  <path d="M 205 80 L 235 85 L 235 90 L 220 95 Q 210 92 205 85 Z" fill="#FFA500" stroke="#333" stroke-width="1"/>
+  <!-- Pouch -->
+  <path d="M 205 85 Q 210 92 220 95 L 215 105 Q 205 100 205 85" fill="#FFD700" stroke="#333" stroke-width="1"/>
+  
+  <!-- Pelican Eye -->
+  <circle cx="195" cy="75" r="3" fill="#333"/>
+  <circle cx="196" cy="74" r="1" fill="white"/>
+  
+  <!-- Pelican Wings -->
+  <ellipse cx="140" cy="115" rx="20" ry="35" fill="white" stroke="#333" stroke-width="2" transform="rotate(-20 140 115)"/>
+  <ellipse cx="180" cy="115" rx="20" ry="35" fill="white" stroke="#333" stroke-width="2" transform="rotate(20 180 115)"/>
+  
+  <!-- Pelican Legs on pedals -->
+  <line x1="155" y1="145" x2="175" y2="170" stroke="#FFA500" stroke-width="4"/>
+  <line x1="165" y1="145" x2="195" y2="190" stroke="#FFA500" stroke-width="4"/>
+  
+  <!-- Pelican Feet -->
+  <path d="M 172 170 L 170 175 M 175 170 L 175 175 M 178 170 L 180 175" stroke="#FFA500" stroke-width="2"/>
+  <path d="M 192 190 L 190 195 M 195 190 L 195 195 M 198 190 L 200 195" stroke="#FFA500" stroke-width="2"/>
+</svg>

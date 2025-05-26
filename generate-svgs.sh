@@ -7,6 +7,10 @@ models=(
     "gpt-4o"
     "o1-preview"
     "o1-mini"
+    "anthropic/claude-opus-4-0"
+    "anthropic/claude-sonnet-4-0"
+    "anthropic/claude-3-7-sonnet-20250219"
+    "claude-3.5-haiku"
     "claude-3-5-sonnet-20240620"
     "claude-3-5-sonnet-20241022"
     "claude-3-haiku-20240307"
@@ -30,11 +34,11 @@ mkdir -p failures
 
 # Loop through each model
 for model in "${models[@]}"; do
-    output_file="$model.svg"
-    # Replace any : in that with -
-    output_file="${output_file//:/-}"
+    # Replace / with __ and : with - for filenames
+    output_file="${model//\//__}"
+    output_file="${output_file//:/-}.svg"
     timestamp=$(date '+%Y%m%d%H%M')
-    failure_file="failures/$model.$timestamp.txt"
+    failure_file="failures/${output_file%.svg}.$timestamp.txt"
     
     # Check if file already exists
     if [ ! -f "$output_file" ]; then
