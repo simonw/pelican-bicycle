@@ -1,5 +1,7 @@
 # Pelicans on a bicycle
 
+For more on this benchmark check out my talk [The last six months in LLMs, illustrated by pelicans on bicycles](https://simonwillison.net/2025/Jun/6/six-months-in-llms/) or review the [pelican-riding-a-bicycle tag](https://simonwillison.net/tags/pelican-riding-a-bicycle/) on my blog.
+
 Prompt:
 
 > `Generate an SVG of a pelican riding a bicycle`
