@@ -16,6 +16,18 @@ Prompt:
 
 ## Claude models
 
+### Claude Opus 4.0
+<img src="anthropic__claude-opus-4-0.svg" width="600" alt="Claude Opus 4.0">
+
+### Claude Sonnet 4.0
+<img src="anthropic__claude-sonnet-4-0.svg" width="600" alt="Claude Sonnet 4.0">
+
+### Claude 3.7 Sonnet (2025-02-19)
+<img src="anthropic__claude-3-7-sonnet-20250219.svg" width="600" alt="Claude 3.7 Sonnet (2025-02-19)">
+
+### Claude 3.5 Haiku
+<img src="claude-3.5-haiku.svg" width="600" alt="Claude 3.5 Haiku">
+
 ### Claude 3.5 Sonnet (2024-06-20)
 <img src="claude-3-5-sonnet-20240620.svg" width="600" alt="Claude 3.5 Sonnet (2024-06-20)">
 
