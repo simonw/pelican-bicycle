@@ -1,0 +1,15 @@
+grader: default
+graded: '2026-08-01T22:14:40.139577+00:00'
+outcome: pass
+score: null
+tags: []
+checks:
+- checker: contains
+  ok: true
+- checker: ../checkers/extract-svg
+  ok: true
+  metrics:
+    svg_bytes: 1204
+  notes: extracted 1204 character SVG
+- checker: xml-valid
+  ok: true

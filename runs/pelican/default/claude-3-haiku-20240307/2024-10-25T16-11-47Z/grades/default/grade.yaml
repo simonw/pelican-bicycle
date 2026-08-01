@@ -1,0 +1,16 @@
+grader: default
+graded: '2026-08-01T22:14:39.686590+00:00'
+outcome: fail
+score: null
+tags: []
+checks:
+- checker: contains
+  ok: true
+- checker: ../checkers/extract-svg
+  ok: true
+  metrics:
+    svg_bytes: 1997
+  notes: extracted 1997 character SVG
+- checker: xml-valid
+  ok: false
+  notes: 'XML parse error: unbound prefix: line 22, column 2'

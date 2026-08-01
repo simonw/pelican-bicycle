@@ -1,0 +1,6 @@
+name: pelican-bicycle
+description: >-
+  Can the model generate an SVG of a pelican riding a bicycle?
+  Deterministic checks confirm the response contains a well-formed
+  SVG; judging how much it resembles a pelican riding a bicycle
+  is left to the human viewing the rendered artifacts.

@@ -1,0 +1,31 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Bicycle -->
+  <circle cx="260" cy="200" r="40" fill="none" stroke="black" stroke-width="3"/>
+  <circle cx="140" cy="200" r="40" fill="none" stroke="black" stroke-width="3"/>
+  <line x1="140" y1="200" x2="260" y2="200" stroke="black" stroke-width="3"/>
+  <line x1="200" y1="200" x2="200" y2="150" stroke="black" stroke-width="3"/>
+  <line x1="200" y1="150" x2="260" y2="200" stroke="black" stroke-width="3"/>
+  <line x1="200" y1="150" x2="170" y2="130" stroke="black" stroke-width="3"/>
+  
+  <!-- Pelican body -->
+  <ellipse cx="200" cy="120" rx="35" ry="25" fill="#F5F5F5"/>
+  
+  <!-- Pelican neck -->
+  <path d="M200 120 Q210 100 220 90" fill="none" stroke="#F5F5F5" stroke-width="10"/>
+  
+  <!-- Pelican head -->
+  <circle cx="220" cy="85" r="12" fill="#F5F5F5"/>
+  
+  <!-- Pelican beak -->
+  <path d="M220 85 Q240 85 250 90 L220 95 Z" fill="orange"/>
+  
+  <!-- Pelican wing -->
+  <path d="M200 120 Q220 130 230 150" fill="none" stroke="#F5F5F5" stroke-width="8"/>
+  
+  <!-- Pelican legs -->
+  <line x1="190" y1="140" x2="200" y2="150" stroke="orange" stroke-width="3"/>
+  <line x1="210" y1="140" x2="200" y2="150" stroke="orange" stroke-width="3"/>
+  
+  <!-- Pelican eye -->
+  <circle cx="223" cy="82" r="2" fill="black"/>
+</svg>

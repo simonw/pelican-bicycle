@@ -1,0 +1,20 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Bicycle -->
+  <circle cx="100" cy="250" r="50" stroke="black" stroke-width="2" fill="none" /> <!-- Front wheel -->
+  <circle cx="300" cy="250" r="50" stroke="black" stroke-width="2" fill="none" /> <!-- Back wheel -->
+  <rect x="80" y="220" width="220" height="10" style="fill:rgb(0,0,0);stroke-width:3;stroke:rgb(0,0,0)" /> <!-- Frame -->
+  <polygon points="70,250 130,200 130,250" style="fill:lime;stroke:purple;stroke-width:1" /> <!-- Seat post and seat -->
+  <line x1="100" y1="200" x2="180" y2="150" style="stroke:rgb(255,0,0);stroke-width:2" /> <!-- Handlebars stem -->
+  <ellipse cx="180" cy="145" rx="25" ry="10" style="fill:rgb(0,0,255);stroke:rgb(0,0,0);stroke-width:2" /> <!-- Handlebars -->
+
+  <!-- Pelican -->
+  <ellipse cx="200" cy="120" rx="40" ry="30" style="fill:lightblue;stroke:black;stroke-width:2" /> <!-- Body -->
+  <path d="M 160 100 Q 140 80, 180 60 L 220 60 Q 260 80, 240 100 Z" style="fill:orange;stroke:black;stroke-width:2" /> <!-- Beak -->
+  <circle cx="170" cy="110" r="5" fill="black" /> <!-- Eye -->
+
+  <!-- Legs and Feet -->
+  <line x1="200" y1="150" x2="130" y2="210" style="stroke:orange;stroke-width:3" /> <!-- Leg 1 -->
+  <line x1="240" y1="150" x2="270" y2="210" style="stroke:orange;stroke-width:3" /> <!-- Leg 2 -->
+  <polygon points="125,210 135,210 130,220" style="fill:orange;stroke:black;stroke-width:1" /> <!-- Foot 1 -->
+  <polygon points="265,210 275,210 270,220" style="fill:orange;stroke:black;stroke-width:1" /> <!-- Foot 2 --> 
+</svg>

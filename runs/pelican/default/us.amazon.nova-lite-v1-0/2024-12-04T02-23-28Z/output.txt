@@ -1,0 +1,15 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Bicycle -->
+  <circle cx="100" cy="150" r="20" stroke="black" stroke-width="3" fill="gray" />
+  <circle cx="100" cy="150" r="10" stroke="black" stroke-width="3" fill="gray" />
+  <path d="M 100 130 Q 120 100, 140 130 Q 120 160, 100 130" stroke="black" stroke-width="3" fill="transparent"/>
+  <rect x="85" y="125" width="30" height="5" fill="black" />
+  <rect x="95" y="115" width="10" height="10" fill="black" />
+
+  <!-- Pelican -->
+  <path d="M 60 130 Q 80 110, 100 130 Q 80 150, 60 130" fill="white" stroke="black" stroke-width="2"/>
+  <path d="M 100 130 Q 120 110, 140 130" fill="white" stroke="black" stroke-width="2"/>
+  <path d="M 125 145 Q 135 135, 145 145" fill="white" stroke="black" stroke-width="2"/>
+  <circle cx="100" cy="140" r="5" fill="yellow" />
+  <path d="M 100 145 Q 105 155, 110 145" fill="black" />
+</svg>

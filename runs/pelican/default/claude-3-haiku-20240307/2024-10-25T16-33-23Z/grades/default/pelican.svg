@@ -1,0 +1,28 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="body-gradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFEAC8" />
+      <stop offset="100%" stop-color="#FFD599" />
+    </linearGradient>
+    <linearGradient id="beak-gradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFC14E" />
+      <stop offset="100%" stop-color="#FFA600" />
+    </linearGradient>
+    <linearGradient id="wheel-gradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#7A7A7A" />
+      <stop offset="100%" stop-color="#414141" />
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(100, 150)">
+    <g id="pelican">
+      <path fill="url(#body-gradient)" d="M80 30c0 30-30 50-50 50S-20 60 0 30 30-20 50-20 80 0 80 30z" />
+      <path fill="url(#beak-gradient)" d="M50-20c20 0 30 10 30 30s-10 20-30 20-30-10-30-20 10-30 30-30z" />
+    </g>
+    <g id="bicycle">
+      <circle cx="-40" cy="20" r="20" fill="url(#wheel-gradient)" />
+      <circle cx="40" cy="20" r="20" fill="url(#wheel-gradient)" />
+      <path fill="none" stroke="#000" stroke-width="5" d="M-40 20h80m-70 0c0-20 20-40 40-40s40 20 40 40" />
+    </g>
+  </g>
+</svg>

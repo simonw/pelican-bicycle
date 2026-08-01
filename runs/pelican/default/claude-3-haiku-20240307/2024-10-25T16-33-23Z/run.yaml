@@ -1,0 +1,13 @@
+task:
+  name: pelican
+  prompt: Generate an SVG of a pelican riding a bicycle
+config:
+  name: default
+  runner: run-llm
+  model: claude-3-haiku-20240307
+started: '2024-10-25T16:33:23+00:00'
+exit_code: 0
+backfilled: true
+source_commit: b25faf3e29dcf73c97278dfdd7b7b973462eb0cb
+note: 'Backfilled from git history: output.txt is the extracted SVG (the raw model
+  response was not preserved) and started is the commit''s author date.'

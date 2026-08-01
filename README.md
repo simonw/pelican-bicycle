@@ -6,6 +6,25 @@ Prompt:
 
 > `Generate an SVG of a pelican riding a bicycle`
 
+## Running with smevals
+
+This repository is now an [smevals](https://pypi.org/project/smevals/) Eval. The Task lives in `tasks/pelican.yaml`, the [llm](https://llm.datasette.io/)-based Runner is `run-llm`, and `graders/default.yaml` applies deterministic checks: the response must contain an SVG (extracted to `pelican.svg` by `checkers/extract-svg`, exactly as the old `generate-svgs.sh` did) and that SVG must be well-formed XML. Judging pelican-ness remains a job for human eyes - the web UI shows every extracted SVG as a Grade artifact.
+
+```bash
+smevals run . -m gpt-4o -m claude-3-haiku-20240307 -g   # new runs, graded on the fly
+smevals grade .                                          # grade any ungraded runs
+smevals report .                                         # markdown leaderboard
+smevals serve .                                          # web UI on http://127.0.0.1:7001
+```
+
+Runs are recorded under `runs/pelican/default/<model>/<timestamp>/` and committed to the repository.
+
+### Backfilled history
+
+The 23 runs currently in `runs/` were backfilled from this repository's git history by `backfill-runs.py`: every committed revision of each `<model>.svg` (including the superseded first Claude 3 Haiku attempt) became one Run, timestamped with its commit date. Each backfilled `run.yaml` is marked `backfilled: true` and notes the caveats: `output.txt` holds the extracted SVG rather than the full model response, which was never committed, and failed attempts (the old `failures/` directory) were never committed so could not be recovered. `generate-svgs.sh` is kept for historical reference; `smevals run` replaces it.
+
+The `<model>.svg` files below remain the originals in their traditional home in the repository root.
+
 ## Cerebras Llama models
 
 ### Cerebras Llama 3.1 70B

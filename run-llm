@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+llm -m "$SMEVALS_MODEL" "$SMEVALS_PROMPT"
+llm logs -c --json > log.json 2>/dev/null || true

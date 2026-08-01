@@ -1,0 +1,32 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Bicycle Wheels -->
+  <circle cx="50" cy="150" r="30" stroke="black" stroke-width="3" fill="none"/>
+  <circle cx="150" cy="150" r="30" stroke="black" stroke-width="3" fill="none"/>
+  
+  <!-- Bicycle Frame -->
+  <line x1="50" y1="150" x2="100" y2="100" stroke="black" stroke-width="3"/>
+  <line x1="150" y1="150" x2="100" y2="100" stroke="black" stroke-width="3"/>
+  <line x1="50" y1="150" x2="90" y2="150" stroke="black" stroke-width="3"/>
+  <line x1="150" y1="150" x2="110" y2="150" stroke="black" stroke-width="3"/>
+  <line x1="100" y1="100" x2="110" y2="150" stroke="black" stroke-width="3"/>
+
+  <!-- Pelican Body -->
+  <ellipse cx="100" cy="70" rx="20" ry="30" fill="#f5f5dc" stroke="black" stroke-width="1" />
+  
+  <!-- Pelican Head -->
+  <circle cx="100" cy="40" r="15" fill="#f5f5dc" stroke="black" stroke-width="1"/>
+  
+  <!-- Pelican Beak -->
+  <polygon points="100,40 130,45 100,50" fill="orange"/>
+  
+  <!-- Pelican Eye -->
+  <circle cx="95" cy="35" r="3" fill="black"/>
+
+  <!-- Pelican Legs -->
+  <line x1="90" y1="100" x2="90" y2="120" stroke="orange" stroke-width="4"/>
+  <line x1="110" y1="100" x2="110" y2="120" stroke="orange" stroke-width="4"/>
+  
+  <!-- Pelican Wings -->
+  <path d="M80,70 Q70,50 60,70 T80,90" fill="none" stroke="black" />
+  <path d="M120,70 Q130,50 140,70 T120,90" fill="none" stroke="black" />
+</svg>

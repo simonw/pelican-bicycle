@@ -1,0 +1,3 @@
+name: default
+runner: ../run-llm
+model: gpt-4o

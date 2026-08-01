@@ -1,0 +1,10 @@
+name: default
+checks:
+  - checker: contains
+    value: "<svg"
+    required: true
+  - checker: ../checkers/extract-svg
+    creates: pelican.svg
+    required: true
+  - checker: xml-valid
+    file: pelican.svg

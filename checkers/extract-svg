@@ -1,0 +1,29 @@
+#!/usr/bin/env python3
+"""Extract the first <svg>...</svg> block from the Run's output.
+
+Writes it to pelican.svg in the grade workspace so later checks can
+validate it and so it is kept as a viewable Grade artifact.
+"""
+import json
+import os
+import pathlib
+import re
+import sys
+
+raw = (pathlib.Path(os.environ["SMEVALS_RUN_DIR"]) / "output.txt").read_text()
+# Non-greedy: stop at the first </svg> even if the tag appears twice
+match = re.search(r"<svg[\s\S]*?</svg>", raw)
+if not match:
+    print(json.dumps({"notes": "no <svg>...</svg> block found in output.txt"}))
+    sys.exit(1)
+
+svg = match.group(0)
+pathlib.Path("pelican.svg").write_text(svg)
+print(
+    json.dumps(
+        {
+            "metrics": {"svg_bytes": len(svg.encode("utf-8"))},
+            "notes": f"extracted {len(svg)} character SVG",
+        }
+    )
+)

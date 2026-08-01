@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="400">
+
+  <!-- Draw the bicycle wheels -->
+  <circle cx="150" cy="300" r="50" stroke="black" stroke-width="4" fill="none" />
+  <circle cx="350" cy="300" r="50" stroke="black" stroke-width="4" fill="none" />
+
+  <!-- Draw the bicycle frame -->
+  <line x1="150" y1="300" x2="250" y2="200" stroke="black" stroke-width="4" />
+  <line x1="250" y1="200" x2="350" y2="300" stroke="black" stroke-width="4" />
+  <line x1="250" y1="200" x2="250" y2="120" stroke="black" stroke-width="4" />
+  <line x1="250" y1="120" x2="200" y2="150" stroke="black" stroke-width="4" /> <!-- Handlebar -->
+
+  <!-- Draw the pelican's body -->
+  <ellipse cx="250" cy="150" rx="40" ry="60" fill="#B0C4DE" stroke="#778899" stroke-width="2"/>
+
+  <!-- Draw the pelican's wings -->
+  <path d="M210 150 Q170 130 210 110" fill="#B0C4DE" stroke="#778899" stroke-width="2" />
+  <path d="M290 150 Q330 130 290 110" fill="#B0C4DE" stroke="#778899" stroke-width="2" />
+
+  <!-- Draw the pelican's neck -->
+  <line x1="250" y1="90" x2="250" y2="70" stroke="#B0C4DE" stroke-width="12" stroke-linecap="round" />
+
+  <!-- Draw the pelican's head -->
+  <circle cx="250" cy="50" r="20" fill="#B0C4DE" stroke="#778899" stroke-width="2"/>
+
+  <!-- Draw the pelican's beak -->
+  <polygon points="270,50 310,60 270,70" fill="#FFA500" stroke="#FF8C00" stroke-width="2"/>
+
+  <!-- Draw the pelican's eye -->
+  <circle cx="242" cy="45" r="3" fill="#000000" />
+
+  <!-- Optional: Draw pedals and seat -->
+  <circle cx="250" cy="200" r="5" fill="black" />
+  <line x1="250" y1="200" x2="220" y2="230" stroke="black" stroke-width="4" />
+  <rect x="245" y="160" width="10" height="20" fill="black" />
+
+</svg>
